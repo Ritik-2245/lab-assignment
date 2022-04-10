@@ -10,6 +10,7 @@ import { HeadingComponent } from './heading/heading.component';
 import { ImageContainerComponent } from './image-container/image-container.component';
 import { CardComponent } from './card/card.component';
 import { FooterComponent } from './footer/footer.component';
+import { MainCompoComponent } from './main-compo/main-compo.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { FooterComponent } from './footer/footer.component';
     HeadingComponent,
     ImageContainerComponent,
     CardComponent,
-    FooterComponent
+    FooterComponent,
+    MainCompoComponent
   ],
   imports: [
     BrowserModule,
