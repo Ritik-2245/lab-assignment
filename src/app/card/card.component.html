@@ -1,0 +1,18 @@
+<div class="flex flex-col hover:translate-y-3 duration-100 shadow-lg mt-3 rounded-3xl hover:shadow-white justify-center items-center pb-4 bg-slate-900 hover:bg-white h-full p-4">
+    <div class="mt-4 mb-4">
+    <img class="h-[300px] w-[500px] hover:translate-y-2 rounded-2xl" src={{Post.image}}/>
+    </div>
+    <div class="flex flex-col bg-[#ccdbfd] rounded-lg w-full ">
+
+        <div class="text-center font-mono font-medium text-xl hover:font-extrabold text-black">
+            {{Post.title}}
+        </div>
+        <div class="text-center text-blue-900 text w-[500px] hover:font-bold mt-5 mb-4 p-5 font-xl ">
+            {{Post.description}}
+        </div>
+<div class="text-center text w-[500px] text-2xl text-purple-600  mt-5 mb-4 font-xl">
+ Want to Know More - <a class="hover:font-bold text-blue-900" [href]="Post.link">Link</a>
+</div>
+
+    </div>
+</div>
