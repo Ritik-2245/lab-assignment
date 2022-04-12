@@ -11,6 +11,7 @@ import { ImageContainerComponent } from './image-container/image-container.compo
 import { CardComponent } from './card/card.component';
 import { FooterComponent } from './footer/footer.component';
 import { MainCompoComponent } from './main-compo/main-compo.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { MainCompoComponent } from './main-compo/main-compo.component';
     ImageContainerComponent,
     CardComponent,
     FooterComponent,
-    MainCompoComponent
+    MainCompoComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,
