@@ -1,5 +1,10 @@
 ## How to run program.
 unzip the file and enter into the project named practice open the terminal reach to the root folder of practice project and run in terminal
+
+first 'ng update'
+
+then run 
+
 'npm install'
 
 then run
